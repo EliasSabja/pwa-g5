@@ -1,3 +1,5 @@
+import {app} from 'firebaseConfig.js';
+
 const container = document.querySelector(".container")
 const coffees = [
   { name: "Perspiciatis", image: "images/p1.jpg" },

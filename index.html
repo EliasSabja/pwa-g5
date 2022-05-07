@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-    <script>
-      window.OneSignal = window.OneSignal || [];
-      OneSignal.push(function() {
-	OneSignal.init({
-	  appId: "6b0227d4-4a73-401e-8b70-ed796ba7c3be",
-	  safari_web_id: "",
-	  notifyButton: {
-	    enable: true,
-	  },
-	});
-      });
-    </script> 
     <link rel="manifest" href="manifest.json" />
     <link rel="icon" href="./images/icons/icon.jpg" />
     <meta charset="UTF-8" />
@@ -34,6 +21,7 @@
       </nav>
       <div class="container"></div>
     </main>
+    <script src="firebaseConfig.js" type="module"></script>
     <script src="main.js"></script>
   </body>
 </html>

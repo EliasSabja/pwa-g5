@@ -1,4 +1,4 @@
-import {app} from 'firebaseConfig.js';
+import {app} from './firebaseConfig.js';
 
 const container = document.querySelector(".container")
 const coffees = [
